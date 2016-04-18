@@ -1,0 +1,103 @@
+
+body{
+    margin: auto;
+    width:1000px;
+    background: #dde3de;
+}
+#container
+{
+    margin-top: 30px;
+}
+#content
+{
+    margin-top: 20px;
+    width:1000px;
+    margin-left:  106px;
+}
+#footer{
+    width:1000px;
+}
+#footer h1{
+    margin-left:  200px;
+    color: #0E05F5;
+}
+#footer h2{
+    margin-left:  319px;
+    font-size: 16px;
+    color: #0a951f;
+}
+
+
+#cssmenu {
+
+    width: 100%;
+    height: 27px;
+    margin: 0;
+    padding: 0;
+    background: #000000 url(../images/bg-bubplastic.gif) top left repeat-x;
+}
+#cssmenu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#cssmenu ul li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    background: transparent url(../images/bg-bubplastic-button.gif) top left no-repeat;
+}
+
+#cssmenu ul li a {
+    display: block;
+    height: 27px;
+    padding-left: 35px;
+    float: left;
+    text-transform: uppercase;
+    font-family: 'Helvetica Neue',helvetica,'microsoft sans serif',arial,sans-serif;
+    font-size: 70%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#cssmenu ul li a span {
+    display: block;
+    float: left;
+    height: 22px;
+    padding-top: 5px;
+    padding-right: 35px;
+    background: transparent url(../images/bg-bubplastic-button.gif) top right no-repeat;
+    cursor: pointer;
+}
+
+
+#cssmenu ul li a:hover,
+#cssmenu ul li.active a {
+    background: transparent url(../images/bg-bubplastic-h-lime.gif) top left no-repeat;
+}
+#cssmenu ul li a:hover span,
+#cssmenu ul li.active a span {
+    background: transparent url(../images/bg-bubplastic-h-lime.gif) top right no-repeat;
+}
+
+.class_h3{
+    text-align: center
+}
+#add_student{
+    width: 100%;
+    margin-left: 306px;
+}
+#add_student .field{
+    padding-left: 10px;
+    padding-top: 20px;
+}
+#add_student .field input{
+   padding-left: 71px;
+}
+#add_student .field select{
+    padding-left: 126px;
+}
+#add_student .button{
+   padding-top: 26px;
+   margin-left: 62px
+}
